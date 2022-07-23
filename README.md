@@ -43,7 +43,6 @@ Three or more...
 # Wednesday Exercises
 ## **1. My date of birth the Matrix**
 
-Ma| | |
---- | --- | ---
-|1 |1 |0 | 0 ! 1 | 0 | 1 | 1 | 1 | 0| 0 
+1 | 1 | 0 | 0 | 1 | 0 | 1 | 1 | 1 | 1 | 1 |
+
 ## **2. MIMPS Exercises**
