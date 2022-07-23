@@ -28,7 +28,7 @@ Por ejemplo ***C, C++ y Go*** son lenguajes de programación compilados, mientra
 Por su parte Java es un lenguaje paculiar, porque se compila el código fuente a un lenguaje intermedio llamado **bytecode**, que después es interpretado. Esto con propósito de tener un lenguaje compilado que se pudiera ejecutar sin necesidad de crear varios archivos ejecutables. 
 
 ## **3. Pseudocode Currency Converter exercise**
-`
+```
 START
  
 In_dolares <-- INPUT
@@ -36,13 +36,19 @@ val_bitcoin <-- 0,000043 INPUT
 Conversión < -- In_dólares * val_bitcoin
 PRINT Conversión <-- OUTPUT
 END
-`
+```
 ## 4.
 Three or more...
 
 # Wednesday Exercises
 ## **1. My date of birth the Matrix**
 
+Date: 2003
+
 1 | 1 | 0 | 0 | 1 | 0 | 1 | 1 | 1 | 1 | 1 |
 --- | --- | --- |--- | --- | --- | --- | --- | --- | --- | --- 
+
 ## **2. MIMPS Exercises**
+'''
+hello word
+'''
