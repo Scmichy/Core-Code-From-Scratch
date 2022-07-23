@@ -12,15 +12,15 @@ Por ejemplo ***C, C++ y Go*** son lenguajes de programación compilados, mientra
 ¿Cuál es la diferencia y sus ventajas/desventajas?
 
 
-| Compiled language | Interpreted language |  |
-| :----------------- |:-------------:| -----:|
-| Genera un archivo binario no modificable (ejecutable) | Se escribe en un lenguaje definido y modificable en cada momento | 
-| Las instrucciones se envían directamente al procesador, ya traducidas.      |  Las instrucciones se traducen antes de llegar.     |   
-| Se requiere de un paso extra para que se ejecute el código fuente | El código fuente se ejecuta a través de un solo comando      |   
+| Compiled language | Interpreted language | 
+| :----------------- |:-------------:| 
+| Genera un archivo binario no modificable (ejecutable) | Se escribe en un lenguaje definido y modificable en cada momento
+| Las instrucciones se envían directamente al procesador, ya traducidas.      |  Las instrucciones se traducen antes de llegar.      
+| Se requiere de un paso extra para que se ejecute el código fuente | El código fuente se ejecuta a través de un solo comando      
 | Se ejecuta más rápido. | Se tarda en ejecutar, porque debeb de traducir todo cada vez     | 
-| El programa se ejecuta en ciertos equipos o sistemas operativos | El programa funciona en todas las máquinas y sistemas      | 
-| Los errores de compilación impiden que se compile el código. |  Los errores son visibles cuando se inicia el programa    | 
-| Ejemplos: C, C++, Delphi, Go | Ejemplos: Python, Javascript, Ruby, Perl, PHP      | 
+| El programa se ejecuta en ciertos equipos o sistemas operativos | El programa funciona en todas las máquinas y sistemas      
+| Los errores de compilación impiden que se compile el código. |  Los errores son visibles cuando se inicia el programa    
+| Ejemplos: C, C++, Delphi, Go | Ejemplos: Python, Javascript, Ruby, Perl, PHP     
 
 
 
