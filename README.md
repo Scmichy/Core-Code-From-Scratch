@@ -49,6 +49,49 @@ Date: 2003
 --- | --- | --- |--- | --- | --- | --- | --- | --- | --- | --- 
 
 ## **2. MIMPS Exercises**
-'''
-hello word
-'''
+Código para ejecutar la suma de 2 números ingresados por el usuario:
+```assembly
+.data
+	      number1: .asciiz "\nIngrese el primer numero: "
+	      number2: .asciiz "\nIngrese el segundo numero: "
+  .text
+        main:  
+              li $v0, 4	    # avisa que va a imprimir
+              la $a0, number1	# prepara lo que va a imprimir
+              syscall		# lo manda a imprimir
+              
+              # le dice a la computadora que espere la entrada del ususario
+              li $v0, 5	
+              syscall 
+              
+              # almacena la entrada en un espacio seguro $t0, $t1, $t2...
+               move $t0, $v0 
+               
+              # mismo bloque de intrucciones para los otra entrada
+              li $v0, 4
+              la $a0, number2
+              syscall
+
+              li $v0, 5
+              syscall
+
+              move $t1, $v0  
+             # realiza la suma en el espacio de memoria $t2
+              add  $t2, $t0, $t1
+
+              # bloque final, imprime en pantalla el resultado de la suma
+              li $v0, 1
+              move $a0, $t2
+              syscall
+```
+
+Código para que despliegue mi nombre:
+```assembly
+  .data
+        message: .asciiz "\nCindy Saminez\n"
+  .text
+        main:
+              li $v0, 4
+              la $a0, message
+              syscall
+```
