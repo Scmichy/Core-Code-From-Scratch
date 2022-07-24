@@ -4,7 +4,7 @@
 Aquí se encontraran los ejercicios designados a cada semana, organizados por día.
 
 ---
-# Tuesday exercises
+# :large_blue_circle: Tuesday exercises
 ## **1. Lenguajes sde programación compilados e Interpretados** 
 
 Los *compiladores* e *intérpretes* son programas que convierten el código que escribimos a **lenguaje de máquina**, para que lo entienda la computadora. Los lenguajes de programación se puede clasificar en dos tipos, según su naturaleza: El ***lenguaje interpretado*** y  el ***lenguaje compilado***.  
@@ -26,7 +26,7 @@ Por ejemplo ***C, C++ y Go*** son lenguajes de programación compilados, mientra
 <span style="background-color:green">Nota:</span>
 *La principal diferencia, es que el lenguaje compilado requiere un paso adicional antes de ser ejecutado, **la compilación**, para convierte el código a lenguaje de máquina. En cambio, el lenguaje interpretado, es convertido a medida que es ejecutado.*
 
-## **2. Is Java compiled or interpreted, or both?**
+## :large_blue_circle:**2. Is Java compiled or interpreted, or both?**
 Por su parte Java es un lenguaje paculiar, porque se compila el código fuente a un lenguaje intermedio llamado **bytecode**, que después es interpretado. Esto con propósito de tener un lenguaje compilado que se pudiera ejecutar sin necesidad de crear varios archivos ejecutables. 
 
 ## **3. Pseudocode Currency Converter exercise**
@@ -42,7 +42,7 @@ END
 ## 4.
 Three or more...
 
-# Wednesday Exercises
+# :large_blue_circle: Wednesday Exercises
 ## **1. My date of birth the Matrix**
 
 Date: 2003
@@ -97,7 +97,7 @@ Código para que despliegue mi nombre:
               la $a0, message
               syscall
 ```
-# Thursday Excercise
+# :large_blue_circle: Thursday Excercise
 ## **1. Print special numbers exercise**
 ---
 
