@@ -1,4 +1,5 @@
-# Week Challenges 1
+# Week Challenges 1 
+:tada: Initial commit
 
 Aquí se encontraran los ejercicios designados a cada semana, organizados por día.
 
@@ -22,7 +23,8 @@ Por ejemplo ***C, C++ y Go*** son lenguajes de programación compilados, mientra
 | Los errores de compilación impiden que se compile el código. |  Los errores son visibles cuando se inicia el programa    
 | Ejemplos: C, C++, Delphi, Go | Ejemplos: Python, Javascript, Ruby, Perl, PHP     
 
-***NOTA:*** *La principal diferencia, es que el lenguaje compilado requiere un paso adicional antes de ser ejecutado, **la compilación**, para convierte el código a lenguaje de máquina. En cambio, el lenguaje interpretado, es convertido a medida que es ejecutado.*
+<span style="background-color:green">Nota:</span>
+*La principal diferencia, es que el lenguaje compilado requiere un paso adicional antes de ser ejecutado, **la compilación**, para convierte el código a lenguaje de máquina. En cambio, el lenguaje interpretado, es convertido a medida que es ejecutado.*
 
 ## **2. Is Java compiled or interpreted, or both?**
 Por su parte Java es un lenguaje paculiar, porque se compila el código fuente a un lenguaje intermedio llamado **bytecode**, que después es interpretado. Esto con propósito de tener un lenguaje compilado que se pudiera ejecutar sin necesidad de crear varios archivos ejecutables. 
@@ -95,3 +97,16 @@ Código para que despliegue mi nombre:
               la $a0, message
               syscall
 ```
+# Thursday Excercise
+## **1. Print special numbers exercise**
+---
+
+## **2. Bad Code Exercise**
+___
+
+## **3. Bad Code 2 Exercise**
+___
+<mark>Marked text</mark>
+<span style="background-color:green">Marked text</span>
+<mark style="background-color: lightpink">Marked text</mark>
+==higlight==
