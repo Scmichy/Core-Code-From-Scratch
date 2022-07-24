@@ -4,7 +4,7 @@
 Aquí se encontraran los ejercicios designados a cada semana, organizados por día.
 
 ---
-# :calendar: Tuesday exercises
+# :date: Tuesday exercises
 ## **1. Lenguajes sde programación compilados e Interpretados** 
 
 Los *compiladores* e *intérpretes* son programas que convierten el código que escribimos a **lenguaje de máquina**, para que lo entienda la computadora. Los lenguajes de programación se puede clasificar en dos tipos, según su naturaleza: El ***lenguaje interpretado*** y  el ***lenguaje compilado***.  
