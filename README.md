@@ -100,9 +100,9 @@ Código para que despliegue mi nombre:
 # :calendar: Thursday Excercise
 ## **1. Print special numbers exercise** :1234:
 ---
-<mark style="background-color: lightpink">Loop solution FOR:</mark>
+<b style="background-color: lightblue; color:black">Loop solution FOR:</b>
 
-```assembly
+```javascript
 let str = '';
 console.log("Inicia Ccilo For");
 for (let i = 0; i <= 100; i=i+2) {  
@@ -112,9 +112,9 @@ console.log(str);
 console.log("fin de la iteracion");
 ```
 
-<mark style="background-color: lightgreen">Loop Solution WHILE:</mark>
+<b style="background-color: lightblue; color:black">Loop solution WHILE:</b>
 
-```assembly
+```javascript
 //Este bucle, pregunta de primero y luego itera
 let n = 0; //contador
 
@@ -125,9 +125,9 @@ while (n <= 100) { //comparacion lógica
 }
 console.log("Fin");
 ```
-<mark style="background-color: lightblue">Loop Solution DO-WHILE:</mark>
+<b style="background-color: lightblue; color:black">Loop solution DO-WHILE:</b>
 
-```assembly
+```javascript
 //Este bucle primero hace y luego pregunta
 let i = 0;
 console.log("Inicio del Ciclo Do-While");
@@ -141,7 +141,7 @@ console.log("FIn");
 ## **2. Bad Code Exercise** :x:
 ___
 What is the error in the code? 
-```assembly
+```JAVASCRIPT
 var cond = false;
 
 if ((cond = true)) {
@@ -150,12 +150,12 @@ if ((cond = true)) {
   console.log('The cond variable is false');
 }
 ```
-<span style="background-color:purple">Answer:</span> :pencil2:
+<b style="background-color: lightgreen; color:black">Answer:</b> :pencil2:
 
 El error es simple, en la comparacion lógica de la iteración, está usando un signo **"="**, el cual se utiliza para ***asignar un valor***, en lugar de **"=="** que es el utilizado para ***una comparacion***, sin olvidar que también existe **"==="** para una ***comparación estricta***.
 
 Correct Code :heavy_check_mark:
-```assembly
+```javascript
 var cond = false;
 if ((cond == true)) {
   console.log('The cond variable is true');
@@ -169,7 +169,7 @@ Correct the code, so that it follows the following logic and works correctly:
 
 *If the given number is 100, take this number as special and show the following message: "This is a special number!", but if the number is less than 1000, multiple of 10 and different from 100, it should show the following message : "This issue is almost special." if none of the given conditions are met display the following message: "Only a regular number"*
 
-```assembly
+```javascript
 var n = 100;
 
 if (n == 100) {
@@ -186,7 +186,7 @@ if (n % 10 == 0) {
 ```
 Correct Code :heavy_check_mark:
 
-```assembly
+```javascript
 var n = 200; //variable para la comparacion 
 
 //Condicional, verifica si la variable es igual a 100
