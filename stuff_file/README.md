@@ -1,6 +1,5 @@
 # :tada: Week Challenges 1 
 
-
 Aquí se encontraran los ejercicios designados a cada semana, organizados por día.
 
 ---
