@@ -43,7 +43,7 @@ END
 ## 4.
 Three or more...
 
-# :calendar: Wednesday Exercises
+# :date: Wednesday Exercises
 ## **1. My date of birth the Matrix**
 
 Date: 2003
@@ -98,7 +98,7 @@ Código para que despliegue mi nombre:
               la $a0, message
               syscall
 ```
-# :calendar: Thursday Excercise
+# :date: Thursday Excercise
 ## **1. Print special numbers exercise** :1234:
 ---
 <b style="background-color: lightblue; color:black">Loop solution FOR:</b>
@@ -202,7 +202,4 @@ if (n == 100) {
           //no es multiplo de 10
 ```
 :pushpin: **note:** pruebe cambiando el valor de la variable **"n"** para verificar si se cumplen las diferentes opciones.
-___
-<mark>Marked text</mark>
-<span style="background-color:green">Marked text</span>
-<mark style="background-color: lightpink">Marked text</mark>
+
