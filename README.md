@@ -4,5 +4,5 @@ Hola, bienvenido a mi README. En este espacio encontraras tareas, ejercicios, y 
 ¡Acompañame! :loudspeaker:
 
 # WEEK CHALLENGES 
-- [Week 1](stuff_file/README.md)
-- [Week 2]()
+- [Week 1](src/weeks/week_1/README.md)
+- [Week 2](src/weeks/week_2/README.md)
