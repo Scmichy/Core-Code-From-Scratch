@@ -5,13 +5,11 @@
 
 # :date: Tuesday exercises
 ## **1. Multiply Excercise** :boom:
-Bad Code CODEWARS :x:
+Bad Code **CODEWARS** :x:
 ```javascript
 function multiply(a, b){
   a * b
 } return multiply;
-
-correct code;
 
 console.log(multiply(8,10)); //Test
 ```
