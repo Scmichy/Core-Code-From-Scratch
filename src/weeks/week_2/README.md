@@ -4,6 +4,50 @@
 # :date: Monday exercises
 
 # :date: Tuesday exercises
+## **1. HTML Course**
+Lo que aprendí hoy en el curso :exclamation::point_down:
+
+1.1 LAS PÁGINAS WEB SE CONFORMA POR :computer:
+
+:small_orange_diamond:**Frontent:** Es todo lo que el usuario puede ver, es decir el diseño de la página, colores, forma, temas, etc.
+
+:small_orange_diamond:**Backend:** es la parte que el usuario no puede ver, normalmente se encarga de la parte pesada, como leer y guardar datos, ingresar a las BD, retornar los datos al fronted, segun reaqeurimiento, etc. 
+
+img
+
+1.2 ROLES DE DESARROLLADORES
+
+:woman: **Frontend Developer:** se encarga del código para la parte visual que el usuario va a poder ver. 
+
+:man: **Backend Developer:** Se encarga de las cosas que el usuario no puede ver, por ejemplo el manejo de datos.
+
+:department_store: **Fullstack Developer:** Es la combinacion de los dos.
+
+1.3 Lenguajes de las páginas web:
+
+- **HTML:** no es lenguaje de programacion, es un lenguaje de marcado de hipertexto, y su funcion es crear la estructura que va a tener la página web.
+
+- **CSS:** Tampoco es un lenguaje de programación, es una hoja de estilo en cascada, y define las propiedades del estilo de la página web
+
+- **Javascript:** si es un lenguaje de programacion y se encarga de darle la funcionalidad a nuestra pagina web
+
+1.4 Analogía de una página web: Podemos compararlo como un edificio :department_store:
+
+HTML --> es la estructura del edificio
+
+CSS --> es el estilo del edificio por ejemplo los colores y decoraciones.
+
+JavaScript --> es la funcionalidad del edificio por ekjemplo los elevadores.
+
+1.5 TRÁFICO EN RED: En las páginas existen las partes **cliente** y **servidor**.
+
+Un *Cliente* realiza una busqueda, entonces le manda un *Request* al servidor y el servidor le realiza un *Response* al *cliente* para de volverle la información solicitada. Y luego el navegador crea el *DOM* (Modelo del Documento en OBjeto), donde están los datos del html que devuelve el servidor.
+
+- Cliente --> Request ...
+- Servidor --> Response...
+- DOM
+
+
 ## **2. Multiply Excercise** :boom:
 Bad Code **CODEWARS** :x:
 ```javascript
@@ -23,7 +67,7 @@ function multiply(a,b){
 console.log(multiply(8,10)); //Test
 ```
 :interrobang::eyes: *El error se encontraba en el retorno del resultado de la multiplicción, pues se estaba retornando la funcion como tal, pero no el resultado*
-___
+
 ## **3. ASCII Exercise** 
 <h3 style="color:#01A9DB; text-align:center">3.1ASCII (American Stand Code for Information Interchange):</h3>
 
