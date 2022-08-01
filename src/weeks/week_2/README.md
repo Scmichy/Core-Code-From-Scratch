@@ -103,7 +103,65 @@ function uniTotal(cadena) { //The string as a parameter.
 ```
 
 # :date: Wednesday exercises
+## **2. Char From ASCII Value**
+2.1 Katana Coderwars:
+
+:scroll: Escriba una función get_char() / getChar() que tome un número y devuelva el carácter ASCII correspondiente a ese valor.
+
+Example: get_char(65) --> should return: 'A'
+
+:small_blue_diamond: Solution:
+
+```javascript
+function getChar(c){
+  return String.fromCharCode(c); //method to convert ASCII code
+}
+console.log(getChar(50)); //Test
+```
+## **3. Binary Addition**
+3.1 Katana Coderwars
+
+:scroll: Implemente una función que sume dos números y devuelva la suma en binario. La conversión se puede hacer antes o después de la adición. El número binario devuelto debe ser una cadena. Ejemplos:(Entrada1, Entrada2 --> Salida (explicación)))
+
+:small_blue_diamond: Solution: 
+```javascript
+function addBinary(a, b) {
+  return (a + b).toString(2); //the method returns the number in base 2 (binary)
+}
+console.log(addBinary(3,5)); //test
+```
+## **4. Student's Final Grade Exercise**
+4.1 Katana Koderwars:
+:scroll: Cree una función notaFinal, que calcule la nota final de un estudiante en función de dos parámetros: una nota para el examen y una cantidad de proyectos completados. Esta función debe tomar dos argumentos: examen - calificación del examen (de 0 a 100); proyectos - número de proyectos completados (de 0 en adelante);
+
+Esta función debería devolver un número (calificación final). Hay cuatro tipos de calificaciones finales:
+
+- 100, si la calificación del examen es superior a 90 o si el número de proyectos terminados es superior a 10.
+- 90, si la calificación del examen es superior a 75 y si el número de proyectos completados es mínimo 5.
+- 75, si la calificación del examen es superior a 50 y si el número de proyectos completados es mínimo 2.
+- 0, en otros casos
+
+:small_blue_diamond: Solution:
+```javascript
+function finalGrade (exam, projects) { //entry parameters, exam grade and delivered projects
+  var finalNote; //variable for final note
+
+  if (exam > 90 || projects > 10){ // if you comply with this
+    finalNote = 100; // get a grade of 100
+  } else if (exam > 75 && projects >= 5){ //but if you get this
+    finalNote = 90; // get a grade of 90
+  } else if(exam > 50 && projects >= 2){ // but if you get this
+    finalNote = 75; // get a grade of 75
+  } else{ 
+   finalNote = 0; /// get a grade of 0
+  }
+  return finalNote; // return the final grade corresponding to the case
+}
+console.log(finalGrade(20, 2)); //Test
+```
+**Note: cambie las notas según los casos, para verificar que se cumplan todos**
 
 # :date: Thursday exercises
+
 
 
