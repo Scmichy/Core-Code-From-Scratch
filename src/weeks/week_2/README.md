@@ -109,7 +109,7 @@ function uniTotal(cadena) { //The string as a parameter.
 
 <p align="center">
   <img src="/src/weeks/imgs/estructura_html.png" width="350" title="Estructura base HTML">
-  <img src="estructura_html_2.jpg" width="350" title="Etiquetas base HTML">
+  <img src="/src/weeks/imgs/estructura_html_2.png" width="350" title="Estructura base HTML">
 </p>
 
 ```html
