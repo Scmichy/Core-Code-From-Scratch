@@ -246,6 +246,37 @@ console.log(finalGrade(20, 2)); //Test
 **Note: cambie las notas según los casos, para verificar que se cumplan todos**
 
 # :date: Thursday exercises
-## **1. HTML Course (part 2)** 
+## **1. HTML Course** :chart_with_downwards_trend: :end:
 
+<h3 style="font-size: 20px;">1.1 ELEMENTOS DE HTML PARA REALIZAR TITULOS</h3>
 
+- ***Titutlos:*** los titulos o **heading** van desde *h1* hasta *h6*, desde el más grande al más pequeño. Se debe utilizar el heading que se necesite de acuerdo a su utilidad y no al tamaño como tal, ya que este se modifica en css. 
+```html
+<h1>TITULO 1</h1>
+<h2>TITULO 2</h2>
+<h3>TITULO 3</h3>
+<h4>TITULO 4</h4>
+<h5>TITULO 5</h5>
+<h6>TITULO 6</h6>
+```
+
+Lo correcto sería que cada página web conserve solo un h1, para ser más amigable con en navegador. 
+
+<h3 style="font-size: 20px;">1.2 ¿Cómo insertar hipervínculos en HTML?</h3>
+
+- ***Hipervinculos:*** se utiliza la etiqueta:
+```html
+<a hrf="https:/aqui_va_el_link.com">Vinculo</a>
+```
+para realizar hipervinvulos de la misma página, se debe de colocar en el *hrf* el id del elemento donde queremos posicionar.
+```html
+<a hrf="#id_titutlo">Vinculo</a>
+```
+- **atributo target="_blank":** Sirve para abrir el link en otra página.
+```html
+<a hrf="https:/google.com" target="_blank">Vinculo</a>
+```
+- **Atributo download:** con este atributo podemos descargar archivos, por ejemplo: imágenes, solo se debe de poner la ruta de la imágen y agregarle el atributo download (sin comillas ni "=").
+```html
+<a hrf="img/myAvatar.jpg" download>Vinculo</a>
+```
