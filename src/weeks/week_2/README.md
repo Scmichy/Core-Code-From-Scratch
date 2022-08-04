@@ -154,7 +154,8 @@ Existen tres formas de agregar estilo a nuestra páginas:
     </style>
 ```
 
-3. External CSS: se crea un achivo externo de css, luego se enruta en el archivo html:
+3. External CSS: se crea un achivo externo de css, luego se enruta en el archivo html: Es lo más recomendable. 
+
 Esto va en head 
 ```html
 <link rel="stylesheet" href="index.css">
@@ -167,7 +168,7 @@ p{
     font-family: cursive;
 }
 ```
-<h3 style="font-size: 20px;">1.3 Elementos de css</h3>
+<h3 style="font-size: 20px;">1.3 ELEMENTOS DE CSS</h3>
 
 - **id:** es el identificador único de cada elemeto que lo diferencia del resto, por lo tanto, no se puede compartir. En css se invoca de la siguiente manera: *#NombreId{ }*
 
