@@ -103,6 +103,89 @@ function uniTotal(cadena) { //The string as a parameter.
 ```
 
 # :date: Wednesday exercises
+## **1. HTML Course :part_alternation_mark:**
+
+<h3 style="font-size: 20px;">1.1 ESTRUCTURA BASE DE UNA PÁGINA WEB</h3>
+
+<p align="center">
+  <img src="estructura_html.png" width="350" title="Estructura base HTML">
+  <img src="estructura_html_2.jpg" width="350" title="Etiquetas base HTML">
+</p>
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+<!-- por cierto, este es un comentario.
+<head></head> --- Aqui se ubican los metadatos.
+<title></title> --- Texto que aparece en la pestaña de la página.
+<body></body> --- El cuerpo, donde va a ir el contenido de la página.
+-->
+
+```
+***Metadatos***: Son caracteres que vamos a utilizar en nuestras páginas web, si bien no son obligatorios, algunos son necesarios.
+
+<h3 style="font-size: 20px;">1.2 FORMAS DE AGREGAR ESTILO EN HTML:</h3>
+
+Existen tres formas de agregar estilo a nuestra páginas:
+
+1. In Line Style: se le agrega estilo directamente sobre un elemnto, con el atribulo "style":
+```html
+ <p style="color: rgba(226, 124, 218)">hello word!</p> 
+ ```
+ :no_entry_sign: (NO es lo recomendado).
+
+2. In Ternal Style: el estilo css esta interno en el código de nuetro html: esta en el head
+```html
+<style>
+      p {
+        color: rgb(0, 255, 106);
+      }
+    </style>
+```
+
+3. External CSS: se crea un achivo externo de css, luego se enruta en el archivo html:
+Esto va en head 
+```html
+<link rel="stylesheet" href="index.css">
+```
+  -  Esto va en la hoja css externa: 
+```css
+p{
+    color:aqua;
+    font-size: 50px;
+    font-family: cursive;
+}
+```
+<h3 style="font-size: 20px;">1.3 Elementos de css</h3>
+
+- **id:** es el identificador único de cada elemeto que lo diferencia del resto, por lo tanto, no se puede compartir. En css se invoca de la siguiente manera: *#NombreId{ }*
+
+- **class:** es la clasificación de los elementos, y esta se pueden compartir. En css se manda a llamar --> *.NombreClass{ }*, (con punto).
+
+
+
+| Tag | Description | 
+| :----------------- |:-------------| 
+| 'head' | Se escribe en un lenguaje definido y modificable en cada momento
+| Las instrucciones se envían directamente al procesador, ya traducidas.      |  Las instrucciones se traducen antes de llegar.      
+| Se requiere de un paso extra para que se ejecute el código fuente | El código fuente se ejecuta a través de un solo comando      
+| Se ejecuta más rápido. | Se tarda en ejecutar, porque debeb de traducir todo cada vez     | 
+| El programa se ejecuta en ciertos equipos o sistemas operativos | El programa funciona en todas las máquinas y sistemas      
+| Los errores de compilación impiden que se compile el código. |  Los errores son visibles cuando se inicia el programa    
+| Ejemplos: C, C++, Delphi, Go | Ejemplos: Python, Javascript, Ruby, Perl, PHP   
+
+
 ## **2. Char From ASCII Value**
 2.1 Katana Coderwars:
 
@@ -162,6 +245,6 @@ console.log(finalGrade(20, 2)); //Test
 **Note: cambie las notas según los casos, para verificar que se cumplan todos**
 
 # :date: Thursday exercises
-
+## **1. HTML Course (part 2)** 
 
 
