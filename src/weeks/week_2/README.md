@@ -262,7 +262,7 @@ console.log(finalGrade(20, 2)); //Test
 
 Lo correcto sería que cada página web conserve solo un h1, para ser más amigable con en navegador. 
 
-<h3 style="font-size: 20px;">1.2 ¿Cómo insertar hipervínculos en HTML?</h3>
+<h3 style="font-size: 20px;">1.2 ¿CÓMO INSERTAR HIPERVÍNCULOS EN HTML?</h3>
 
 - ***Hipervinculos:*** se utiliza la etiqueta:
 ```html
@@ -280,3 +280,25 @@ para realizar hipervinvulos de la misma página, se debe de colocar en el *hrf* 
 ```html
 <a hrf="img/myAvatar.jpg" download>Vinculo</a>
 ```
+<h3 style="font-size: 20px;">1.3 ELENTOS PARA ENLISTAR</h3>
+
+Podemos enlistar de 2 maneras:
+  1. ul --> lista desordenada
+  2. ol --> lista ordenada
+
+<h3 style="font-size: 20px;">1.4 ELEMNTOS PARA CRAR TABLAS EN HTML</h3>
+
+table -- se llama para crear una tabla
+thead --> table head --> crea los encabezados de la tabla
+tbody --> table body --> crea el cuerpo de los datos de la table
+tr --> table road --> crea filas de celda
+th --> table header --> crea el dato que  va a contener
+td --> table data --> crea el dato para las casillas
+
+<h3 style="font-size: 20px;">1.5 CREACIÓN DE FORMULARIOS</h3>
+
+Elemento forrm: 
+- label --> muestrar texto.
+- input --> ingresa texto --> type email y text
+- textarea --> ingresa texto de mayor tamaño
+- div --> division de algo
