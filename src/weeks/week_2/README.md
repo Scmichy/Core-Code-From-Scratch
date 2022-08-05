@@ -275,23 +275,17 @@ Podemos enlistar de 2 maneras:
 
 cada elemnto enlistado se realiza con la etiqueta li.
 
-<h3 style="font-size: 20px;">1.4 ELEMNTOS PARA CRAR TABLAS EN HTML</h3>
+<h3 style="font-size: 20px;">1.4 ELEMENTOS PARA CREAR TABLAS EN HTML</h3>
 
 | Tag | Description | 
-| :----------------- |:-------------| 
+| :-----------------: |:------------- :| 
 | table | se llama para crear una tabla
 | thead | table head: crea los encabezados de la tabla      
 | tbody | table body: crea el cuerpo de los datos de la table     
-| tr | table body: crea el cuerpo de los datos de la table     
+| tr | table road: crea el cuerpo de los datos de la table     
 | th | table header: crea el dato que  va a contener      
 | td | table data: crea el dato para las casillas    
 
-table -- se llama para crear una tabla
-thead --> table head --> crea los encabezados de la tabla
-tbody --> table body --> crea el cuerpo de los datos de la table
-tr --> table road --> crea filas de celda
-th --> table header --> crea el dato que  va a contener
-td --> table data --> crea el dato para las casillas
 
 <h3 style="font-size: 20px;">1.5 CREACIÓN DE FORMULARIOS</h3>
 
