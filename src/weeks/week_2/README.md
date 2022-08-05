@@ -318,5 +318,6 @@ code example:
   return resul; //imprime el resultado
 }
 console.log(remove("!lasaña!!!!")); //test
+//output: "!lasaña"
 ```
-Note: En est ejercicio utilizé el método de string.substring(), que lo que hace es extraer partes de un estring, en este caso se extrae la parte que no contien signos al final de la palabra.
+:loudspeaker: Note: En este ejercicio utilizé el método de string.substring(), que extrae partes de un estring, en este caso se extrae la parte que no contien signos de exclamacion al final de la palabra.
