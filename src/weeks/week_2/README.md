@@ -391,4 +391,4 @@ onst rps = (p1, p2) => {
 console.log(rps("rock","papel"));
 //expected output: "Player 2 won!"
 ```
-:loudspeaker: **Note:** se hizo la comparación con if( ) anidados. También se implemento la Arrow Function.
+:loudspeaker: **Note:** se hizo la comparación con if( ) anidados. También se implemento  Arrow Function.
