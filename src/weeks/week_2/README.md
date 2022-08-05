@@ -278,7 +278,7 @@ cada elemnto enlistado se realiza con la etiqueta li.
 <h3 style="font-size: 20px;">1.4 ELEMENTOS PARA CREAR TABLAS EN HTML</h3>
 
 | Tag | Description | 
-| :-----------------: |:------------- :| 
+| :----------------- |:------------- | 
 | table | se llama para crear una tabla
 | thead | table head: crea los encabezados de la tabla      
 | tbody | table body: crea el cuerpo de los datos de la table     
