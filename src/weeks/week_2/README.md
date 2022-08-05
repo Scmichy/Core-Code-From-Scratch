@@ -321,3 +321,36 @@ console.log(remove("!lasaña!!!!")); //test
 //output: "!lasaña"
 ```
 :loudspeaker: Note: En este ejercicio utilizé el método de string.substring(), que extrae partes de un estring, en este caso se extrae la parte que no contien signos de exclamacion al final de la palabra.
+
+## **3. Vowel Remover exercise**
+
+:page_with_curl: **Description:** Cree una función llamada shortcut para eliminar las vocales minúsculas (a, e, i, o, u) en una cadena dada. No se tomaran en cuenta las vocales mayúsculas.
+
+por ejemplo: 
+- "goodbye"   -->  "gdby"
+- "HELLO"     -->  "HELLO"
+
+:scissors: Code solution: 
+```javascript
+function shortcut(sentence) {
+  var resul = ""; // variable to store the string without vowels
+  var size = sentence.length; 
+  for (i = 0; i < size; i++) { 
+    if (  //check if it has vowels
+      sentence[i] === "a" ||
+      sentence[i] === "e" ||
+      sentence[i] === "i" ||
+      sentence[i] === "o" ||
+      sentence[i] === "u"
+    ) {
+      continue; //next instruction
+    }
+    resul = resul + sentence[i]; //add to index
+  }
+  return resul;
+}
+console.log(shortcut("Murcielago"));
+//expected output: "Mrclg"
+```
+
+:loudspeaker: **Note:** el método string.length(), devuelve la longitud del String, nos sirve para poder recorrerlo en un ciclo for, cuando no lo tenemos definido. 
