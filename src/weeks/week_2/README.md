@@ -354,3 +354,41 @@ console.log(shortcut("Murcielago"));
 ```
 
 :loudspeaker: **Note:** el método string.length(), devuelve la longitud del String, nos sirve para poder recorrerlo en un ciclo for, cuando no lo tenemos definido. 
+
+## **4. Rock, Paper or Scissors! exercise**
+
+**Description:** ¡Vamos a jugar! ¡Tienes que devolver qué jugador ganó! En caso de empate devolver Sorteo!.
+
+Por ejemplo:
+
+- "scissors", "paper" --> "Player 1 won!"
+- "scissors", "rock" --> "Player 2 won!"
+- "paper", "paper" --> "Draw!"
+
+:heavy_check_mark: Code Solution:
+
+```javascript
+onst rps = (p1, p2) => {
+  let win;
+
+  if (p1 == "scissors") //if it finds "scissors" in p1
+    if (p2 == "paper") win = "Player 1 won!"; //check if p2 matches the other option
+    else if (p2 == "rock") win = "Player 2 won!"; 
+    else win = "Draw!"; //Or check if p1 and p2 are equal
+
+  if (p1 == "paper")  // if it finds "paper" in p1
+    if (p2 == "rock") win = "Player 1 won!";  
+    else if (p2 == "scissors") win = "Player 2 won!";
+    else win = "Draw!"; //Or check if
+    
+  if (p1 == "rock") // if it finds "rock" in p1
+    if (p2 == "scissors") win = "Player 1 won!";  
+    else if (p2 == "paper") win = "Player 2 won!";
+    else win = "Draw!"; 
+
+  return win;
+};
+console.log(rps("rock","papel"));
+//expected output: "Player 2 won!"
+```
+:loudspeaker: **Note:** se hizo la comparación con if( ) anidados. También se implemento la Arrow Function.
