@@ -285,6 +285,7 @@ para realizar hipervinvulos de la misma página, se debe de colocar en el *hrf* 
 Podemos enlistar de 2 maneras:
   1. ul --> lista desordenada
   2. ol --> lista ordenada
+cada elemnto enlistado se realiza con la etiqueta li.
 
 <h3 style="font-size: 20px;">1.4 ELEMNTOS PARA CRAR TABLAS EN HTML</h3>
 
