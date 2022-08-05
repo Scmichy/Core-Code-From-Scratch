@@ -174,19 +174,6 @@ p{
 
 - **class:** es la clasificación de los elementos, y esta se pueden compartir. En css se manda a llamar --> *.NombreClass{ }*, (con punto).
 
-
-
-| Tag | Description | 
-| :----------------- |:-------------| 
-| 'head' | Se escribe en un lenguaje definido y modificable en cada momento
-| Las instrucciones se envían directamente al procesador, ya traducidas.      |  Las instrucciones se traducen antes de llegar.      
-| Se requiere de un paso extra para que se ejecute el código fuente | El código fuente se ejecuta a través de un solo comando      
-| Se ejecuta más rápido. | Se tarda en ejecutar, porque debeb de traducir todo cada vez     | 
-| El programa se ejecuta en ciertos equipos o sistemas operativos | El programa funciona en todas las máquinas y sistemas      
-| Los errores de compilación impiden que se compile el código. |  Los errores son visibles cuando se inicia el programa    
-| Ejemplos: C, C++, Delphi, Go | Ejemplos: Python, Javascript, Ruby, Perl, PHP   
-
-
 ## **2. Char From ASCII Value**
 2.1 Katana Coderwars:
 
@@ -285,9 +272,19 @@ para realizar hipervinvulos de la misma página, se debe de colocar en el *hrf* 
 Podemos enlistar de 2 maneras:
   1. ul --> lista desordenada
   2. ol --> lista ordenada
+
 cada elemnto enlistado se realiza con la etiqueta li.
 
 <h3 style="font-size: 20px;">1.4 ELEMNTOS PARA CRAR TABLAS EN HTML</h3>
+
+| Tag | Description | 
+| :----------------- |:-------------| 
+| table | se llama para crear una tabla
+| thead | table head: crea los encabezados de la tabla      
+| tbody | table body: crea el cuerpo de los datos de la table     
+| tr | table body: crea el cuerpo de los datos de la table     
+| th | table header: crea el dato que  va a contener      
+| td | table data: crea el dato para las casillas    
 
 table -- se llama para crear una tabla
 thead --> table head --> crea los encabezados de la tabla
