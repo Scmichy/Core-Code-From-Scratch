@@ -357,7 +357,7 @@ console.log(shortcut("Murcielago"));
 
 ## **4. Rock, Paper or Scissors! exercise**
 
-**Description:** ¡Vamos a jugar! ¡Tienes que devolver qué jugador ganó! En caso de empate devolver Sorteo!.
+:page_with_curl: **Description:** ¡Vamos a jugar! ¡Tienes que devolver qué jugador ganó! En caso de empate devolver Sorteo!.
 
 Por ejemplo:
 
@@ -392,3 +392,36 @@ console.log(rps("rock","papel"));
 //expected output: "Player 2 won!"
 ```
 :loudspeaker: **Note:** se hizo la comparación con if( ) anidados. También se implemento Arrow Function.
+
+## **5. Persistent Bugger Exercise**
+
+:page_with_curl: **Description:** Escribe una función, persistencia, que tome un parámetro positivo num y devuelva su persistencia multiplicativa, que es el número de veces que debes multiplicar los dígitos en num hasta llegar a un solo dígito. 
+
+Por ejemplo: 
+- 39 --> 3 (because 3*9 = 27, 2*7 = 14, 1*4 = 4 and 4 has only one digit)
+- 999 --> 4 (because 9*9*9 = 729, 7*2*9 = 126, 1*2*6 = 12, and finally 1*2 = 2)
+- 4 --> 0 (because 4 is already a one-digit number)
+
+:heavy_check_mark: Code Solution:
+
+```javascript
+function persistence(num) {
+  let count = 0;
+  let resul = 1;
+  num = num.toString(); //converte to String
+
+  while (num.length > 1) {  //As long as the number is greater than one digit
+    count++;  //add to count
+    for (let i = 0; i < num.length; i++) {
+      resul = resul * num[i]; 
+    }
+    num = resul.toString();
+    resul = 1;
+  }
+  return count;
+}
+console.log(persistence(4));
+//expected output: 2
+//because it is multiplied 2 times, before becoming a digit.
+```
+:loudspeaker: **Note:** El método string.toString(), convierte el parametro en una cadena.
