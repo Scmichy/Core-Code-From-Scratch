@@ -294,3 +294,29 @@ Elemento forrm:
 - input --> ingresa texto --> type email y text
 - textarea --> ingresa texto de mayor tamaño
 - div --> division de algo
+
+## **2. Remove All Exclamation Marks From The End Of Sentence**
+
+:page_with_curl: **Description:** Remove all exclamation marks from the end of sentence.
+
+Examples
+- remove("Hi!") === "Hi"
+- remove("Hi!!!") === "Hi"
+- remove("!Hi") === "!Hi"
+
+code example: 
+```javascript
+  function remove(sentence) {
+  var resul; 
+  var size = sentence.length; //determina el tamaño del string
+  for (let i = size -1; i > 0; i--) { //se le quita una numero para que encaje en la posicion del array
+    if (sentence[i] != '!') { //sí aparece el primer caracter diferente de "!"
+      resul = sentence.substring(0, i + 1); //imprimirá los caracteres hasta ese caracter
+      break; // Detiene la comparacion
+    }
+  }
+  return resul; //imprime el resultado
+}
+console.log(remove("!lasaña!!!!")); //test
+```
+Note: En est ejercicio utilizé el método de string.substring(), que lo que hace es extraer partes de un estring, en este caso se extrae la parte que no contien signos al final de la palabra.
