@@ -4,6 +4,7 @@
 
 ## :date: Monday exercises
 <h3 style="font-size: 20px">1. Who Likes It? exercise</h3>
+
  :scroll: **Description:** Probablemente conozcas el sistema de "me gusta" :+1: de Facebook y otras páginas. Las personas pueden "gustar" publicaciones de blog, imágenes u otros elementos. Queremos crear el texto que debe mostrarse junto a dicho elemento.
 
 Implemente la función que toma una matriz que contiene los nombres de las personas a las que les gusta un artículo. Debe devolver el texto de la pantalla como se muestra en los ejemplos:
