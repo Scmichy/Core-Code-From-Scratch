@@ -1,6 +1,6 @@
 # :tada: Week Challenges 2
->>*"Tienes que hacer las cosas que crees que no puedes hacer"*
->>                                    ***- Eleanor Roosevelt***
+>*"Tienes que hacer las cosas que crees que no puedes hacer"*
+>                                    ***- Eleanor Roosevelt***
 
 # :date: Monday exercises
 
