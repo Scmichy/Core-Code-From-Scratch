@@ -1,5 +1,6 @@
 # :tada: Week Challenges 2
-" Los grandes trabajos mo som hechos por la fuerza, sino por la perseverancia"
+>>*"Tienes que hacer las cosas que crees que no puedes hacer"*
+>>                                    ***- Eleanor Roosevelt***
 
 # :date: Monday exercises
 
