@@ -33,8 +33,8 @@ function likes(names) {
 }
 ```
 
-:pushpin::paperclip: **NOTES:** Se resolvió este ejercicio utilizando ***if...else*** anidado, que permite ejecutar una sentencia en base a una condicion especificada, es decir, una decision. 
-
+:pushpin::paperclip: **NOTES:** Se resolvió este ejercicio utilizando ***if...else*** anidado, pqra que ejecute una sentencia en base a una condicion especificada, es decir, a cada caso del problema. 
+- :link: [Link resource](/src/weeks/Themes/README.md)
 
 ## :date: Tuesday exercises
 
