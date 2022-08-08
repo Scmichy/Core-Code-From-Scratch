@@ -3,7 +3,7 @@
 >***- Nelson Mandela***
 
 ## :date: Monday exercises
-<h3 style="font-size: 25px">1. Who Likes It? exercise</h3>
+<h3 style="font-size: 20px">1. Who Likes It? exercise</h3>
 
 ## :date: Tuesday exercises
 
