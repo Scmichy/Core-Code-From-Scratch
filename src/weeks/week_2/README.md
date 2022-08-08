@@ -6,7 +6,7 @@
 
 # :date: Tuesday exercises
 ## **1. HTML Course**
-> Lo que aprendí hoy en el curso :exclamation::point_down:
+Lo que aprendí hoy en el curso :exclamation::point_down:
 
 1.1 LAS PÁGINAS WEB SE CONFORMA POR :computer:
 
