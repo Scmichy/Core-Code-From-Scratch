@@ -55,7 +55,7 @@ console.log(countBits(1234)); //test
 ```
 :pushpin::paperclip: **NOTES:** El método toString(2) retorna una cadena representando el código fuente de la función. En este caso, .toString(2) se retornará el valor de la cadena en base 2 (binario).
 
-- :link: [Link resource](/src/weeks/Themes/README.md)
+- :link: [Link resource](/src/weeks/Themes/README.md/#if_else)
 
 <h3 style="font-size: 20px">2. Your order, please exercise</h3>
 
