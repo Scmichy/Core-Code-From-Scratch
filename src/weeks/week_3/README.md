@@ -257,5 +257,71 @@ console.log(decodeMorse("  .... . -.--   .--- ..- -.. .   ")); //TEST
 ```
 
 ## :date: Wednesday exercises
+<h3 style="font-size: 20px">1. Valid Parentheses exercise</h3>
+
+Escribe una función que tome una cadena de paréntesis y determine si el orden de los paréntesis es válido. La función debe devolver verdadero si la cadena es válida y falso si no es válida.
+
+Examples:
+```
+"()"              =>  true
+")(()))"          =>  false
+"("               =>  false
+"(())((()())())"  =>  true
+```
+```javascript
+todavía no hay solucion :(
+```
+
+<h3 style="font-size: 20px">2. Convert String To Camel Case exercise</h3>
+
+:scroll: **Description:** Complete el método/función para que convierta las palabras delimitadas por guiones/guiones bajos en mayúsculas y minúsculas. La primera palabra dentro de la salida debe estar en mayúsculas solo si la palabra original estaba en mayúsculas (conocido como Upper Camel Case, también conocido como caso Pascal).
+
+Ejemplos
+```
+"the-stealth-warrior" se convierte en "the Stealth Warrior"
+"The_Stealth_Warrior" se convierte en "The_Stealth_Warrior"
+```
+Code Solution :ballot_box_with_check:
+```javascript
+function toCamelCase(str) {
+  var ant, letter;
+  var string = str.split("").map((p) => {
+    //map en lugar del for
+    ant == "-" || ant == "_" ? (letter = p.toUpperCase()) : (letter = p);
+    //si el val anterior es igual a '-' o '_' --> se convierte el val a mayuscula
+    // si no, el val se mantiene igual
+    ant = p; // el val anterior ahora es el val actual
+    return letter;
+  });
+  return string.join("").replace(/_|-/g, ""); //se realiza para eliminar '_', '-'
+}
+console.log(toCamelCase("the-stealth-warrior")); //test
+```
+
+<h3 style="font-size: 20px">3. Unique In Order exercise</h3>
+
+:scroll: **Description:** Implemente la función unique_in_order que toma como argumento una secuencia y devuelve una lista de elementos sin ningún elemento con el mismo valor uno al lado del otro y conservando el orden original de los elementos.
+
+For example:
+```
+uniqueInOrder('AAAABBBCCDAABBB') == ['A', 'B', 'C', 'D', 'A', 'B']
+uniqueInOrder('ABBCcAD')         == ['A', 'B', 'C', 'c', 'A', 'D']
+uniqueInOrder([1,2,2,3,3])       == [1,2,3]
+```
+Code Solution :ballot_box_with_check:
+```javascript
+var uniqueInOrder = (iterable) => {
+  var res;
+  var copyIter = [...iterable]; //se crea una copia de los parametros
+
+  res = copyIter.filter((w, i) => w != iterable[i + 1]);
+  // se filtran cada elemnto de la copia, para comparar con el elemnto próximo de los parametros
+  return res; //se retorna el array con los elementos unicos
+};
+
+//  tests
+console.log(uniqueInOrder("AAAABBBCCDAABBB"));
+console.log(uniqueInOrder([1, 2, 2, 3, 3]));
+```
 
 ## :date: Thursday exercises
