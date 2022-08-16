@@ -325,3 +325,92 @@ console.log(uniqueInOrder([1, 2, 2, 3, 3]));
 ```
 
 ## :date: Thursday exercises
+
+<h3 style="font-size: 20px">1. Fold an array
+</h3>
+
+:scroll: **Description:** En este kata, debe escribir un método que doble una matriz determinada de números enteros por el medio x veces. La matriz siempre contendrá números y nunca será nula. El parámetro run indica cuántas ejecuciones de plegado tiene que hacer su método.
+
+si el conteo de números es impar, el número del medio se mantendrá. De lo contrario, el punto de plegado está entre los números del medio, por lo que todos los números se sumarían de alguna manera.
+
+Si se pliega una matriz con un elemento, permanece como la misma matriz.La matriz de entrada no debe modificarse.
+
+Un ejemplo dice más que mil palabras:
+```
+Fold 1-times:
+[1,2,3,4,5] -> [6,6,3]
+
+A little visualization (NOT for the algorithm but for the idea of folding):
+
+ Step 1         Step 2        Step 3       Step 4       Step5
+                     5/           5|         5\          
+                    4/            4|          4\      
+1 2 3 4 5      1 2 3/         1 2 3|       1 2 3\       6 6 3
+----*----      ----*          ----*        ----*        ----*
+
+
+Fold 2-times:
+[1,2,3,4,5] -> [9,6]
+```
+Code Solution :ballot_box_with_check:
+```javascript
+function foldArray(array, runs) {
+  var newArray = [...array];
+  var count = 0;
+  var middle = 0;
+  var middleArray, restOfArray, sum, size;
+  // mientras el contador sea diferente del numero de vueltas, se realiza...
+  while (count !== runs) {
+    if (newArray.length == 1) return newArray; //se retorna el mismo array, si contiene un elemento
+    middle = Math.round(newArray.length / 2); //parte el array a la mitad...
+    middleArray = newArray.slice(0, middle); // y crea un array
+    restOfArray = newArray.slice(middle); // con los elemntos restantes, crea otro array
+    sizeRA = restOfArray.length; //tamaño del array anterior
+    //se modifica el array partido, sumandole los elementos del array restante
+    newArray = middleArray.map((x, i) => {
+      //map para sumarle a cada elemento
+      restOfArray[sizeRA - 1 - i] == undefined //si el elemento no existe en el  array restante
+        ? (sum = x + 0) //se le suma 0 al elemento
+        : (sum = x + restOfArray[sizeRA - 1 - i]); //si no se le suma el elemento restante
+      return sum;
+    });
+    count++; //aumenta contador
+  }
+  return newArray; //resultado
+}
+console.log(foldArray([-9, 9, -8, 8, 66, 23], 1));
+```
+
+
+<h3 style="font-size: 20px">3. Unique In Order exercise</h3>
+
+:scroll: **Description:** Este kata crear mensajes secretos que puedan ser descifrados. 
+1. Su mensaje es una cadena que contiene palabras separadas por espacios.
+2, Debe encriptar cada palabra en el mensaje usando las siguientes reglas:
+  - La primera letra debe convertirse a su código ASCII.
+  - La segunda letra debe ser intercambiada con la última letra
+3. Manteniéndolo simple: no hay caracteres especiales en la entrada.
+
+Examples:
+```
+encryptThis("Hello") === "72olle"
+encryptThis("good") === "103doo"
+encryptThis("hello world") === "104olle 119drlo"
+```
+Code Solution :ballot_box_with_check:
+```javascript
+var encryptThis = (text) => {
+  var words = text.split(" ").map((w) => {
+    //separo los elemnots del array y recorro cada uno
+    if (w.length == 1) return w.charCodeAt(0); // si solo es una letra, retorno su código ASCII
+    if (w.length == 2) return w.charCodeAt(0) + w[1]; // retorno el código ASCII del 1ro y el 2do val
+    return w.charCodeAt(0) + w[w.length - 1] + w.slice(2, w.length - 1) + w[1];
+    // si el elemento tiene 3 o mas letras, retorno con las condiciones anteriores.
+  });
+  return words.join(" ");
+};
+console.log(encryptThis("H"));
+console.log(encryptThis("He"));
+console.log(encryptThis("good"));
+console.log(encryptThis("hello world"));
+```
