@@ -31,7 +31,7 @@ function likes(names) {
 ```
 
 :pushpin::paperclip: **NOTES:** Se resolvió este ejercicio utilizando ***if...else*** anidado, para que ejecute una sentencia en base a una condición especificada, es decir, a cada caso del problema. 
-- :link: [Link resource](/src/weeks/Themes/README.md)
+- :link: [Link resource](/src/weeks/Themes/README.md/#)
 
 <h3 style="font-size: 20px">2. Bit Counting exercise</h3>
 

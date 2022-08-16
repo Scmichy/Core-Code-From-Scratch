@@ -1,5 +1,6 @@
 # :loudspeaker: KEY THEMES :bangbang:
 ## Sentence if...else
+<h3 id="if_else">2. Bit Counting exercise</h3>
 Ejecuta una sentencia si una condición específicada es evaluada como verdadera. Si la condición es evaluada como falsa, otra sentencia puede ser ejecutada.
 
 Syntax:
