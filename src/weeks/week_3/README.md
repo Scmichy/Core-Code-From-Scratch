@@ -382,7 +382,7 @@ console.log(foldArray([-9, 9, -8, 8, 66, 23], 1));
 ```
 
 
-<h3 style="font-size: 20px">3. Unique In Order exercise</h3>
+<h3 style="font-size: 20px">2. Encrypt This! exercise</h3>
 
 :scroll: **Description:** Este kata crear mensajes secretos que puedan ser descifrados. 
 1. Su mensaje es una cadena que contiene palabras separadas por espacios.
@@ -414,3 +414,9 @@ console.log(encryptThis("He"));
 console.log(encryptThis("good"));
 console.log(encryptThis("hello world"));
 ```
+<h3 style="font-size: 20px">3. Core Challenge #1
+</h3>
+
+***Mission Statement***
+
+> ¡Hola! soy Cindy, una desarrolladora principiante. Me involucrado tanto en la electrónica como en la robótica, pudiendo contribuir en proyectos combinando mis habilidades en hardware y software. Quiero crecer como desarrolladora de software para crear soluciones innovadoras, así como también, colaborar en empresas de servicios IT. Me considero una persona indagadora y comprometida con la mejora continua.
