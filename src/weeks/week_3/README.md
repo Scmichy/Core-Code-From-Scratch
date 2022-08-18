@@ -417,6 +417,6 @@ console.log(encryptThis("hello world"));
 <h3 style="font-size: 20px">3. Core Challenge #1
 </h3>
 
-***Mission Statement***
+***Mission Statement*** :earth_americas::rocket:
 
 > ¡Hola! soy Cindy, una desarrolladora principiante. Me involucrado tanto en la electrónica como en la robótica, pudiendo contribuir en proyectos combinando mis habilidades en hardware y software. Quiero crecer como desarrolladora de software para crear soluciones innovadoras, así como también, colaborar en empresas de servicios IT. Me considero una persona indagadora y comprometida con la mejora continua.
