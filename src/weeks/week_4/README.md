@@ -3,7 +3,7 @@
 >***- Bill Cosby***
 
 ## :date: Monday exercises
-<h3 style="font-size: 20px">1. For of loop :orange_book::orange_book:</h3>
+<h3 style="font-size: 20px">1. For of loop :orange_book::black_nib:</h3>
 
 Los objetos iterables son una generalización de arrays. Es un concepto que permite que cualquier objeto pueda ser utilizado en un bucle **for..of**. La sentencia sentencia for...of ejecuta un bloque de código para cada elemento de un objeto iterable, por ejemplo, las cadenas o strings. 
 Muchos operadores y métodos se basan en la iterabilidad. Si un objeto no es técnicamente una matriz, pero representa una colección (lista, conjunto) de algo, entonces el uso de la sintaxis for..of es una gran forma de recorrerlo. 
@@ -32,7 +32,7 @@ filter(function(element, index, array){ /* … */ })
 ```
 
 
-<h3 style="font-size: 20px">3. JavaScript Array Reduce :ledger::black_nib:</h3>
+<h3 style="font-size: 20px">3. JavaScript Array Reduce :closed_book::black_nib:</h3>
 
 - Cuando necesitamos iterar sobre un array podemos usar **forEach, for o for..of**.
 - Cuando necesitamos iterar y devolver un valor por cada elemento podemos usar **map**.
