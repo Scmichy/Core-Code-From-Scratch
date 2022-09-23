@@ -3,7 +3,7 @@
 >***- Bill Cosby***
 
 ## :date: Monday exercises
-<h3 style="font-size: 20px">1. For of loop</h3> :orange_book::orange_book:
+<h3 style="font-size: 20px">1. For of loop</h3>:orange_book::orange_book:
 
 Los objetos iterables son una generalización de arrays. Es un concepto que permite que cualquier objeto pueda ser utilizado en un bucle **for..of**. La sentencia sentencia for...of ejecuta un bloque de código para cada elemento de un objeto iterable, por ejemplo, las cadenas o strings. 
 Muchos operadores y métodos se basan en la iterabilidad. Si un objeto no es técnicamente una matriz, pero representa una colección (lista, conjunto) de algo, entonces el uso de la sintaxis for..of es una gran forma de recorrerlo. 
@@ -14,7 +14,7 @@ for (variable of iterable)
   statement
 ```
 
-<h3 style="font-size: 20px">2. JavaScript Array Filter</h3> :ledger::black_nib:
+<h3 style="font-size: 20px">2. JavaScript Array Filter</h3>:ledger::black_nib:
 
 Es un método que busca los elementos que cumplen con una condición dada, y devuelve un array con todos los elementos encontrados. 
 
@@ -32,7 +32,7 @@ filter(function(element, index, array){ /* … */ })
 ```
 
 
-<h3 style="font-size: 20px">3. JavaScript Array Reduce</h3> :closed_book::black_nib:
+<h3 style="font-size: 20px">3. JavaScript Array Reduce</h3>:closed_book::black_nib:
 
 - Cuando necesitamos iterar sobre un array podemos usar **forEach, for o for..of**.
 - Cuando necesitamos iterar y devolver un valor por cada elemento podemos usar **map**.
@@ -49,7 +49,7 @@ let value = arr.reduce(function(accumulator, item, index, array) {
 ```
 
 
-<h3 style="font-size: 20px">4. JavaScript Array Map</h3> :green_book::black_nib:
+<h3 style="font-size: 20px">4. JavaScript Array Map</h3>:green_book::black_nib:
 
 El método **arr.map** es uno de los métodos más comunes y ampliamente usados. Este método llama a la función para cada elemento del array y devuelve un array con los resultados. 
 
