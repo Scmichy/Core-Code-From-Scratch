@@ -70,14 +70,44 @@ console.log(map1);
 // expected output: Array [2, 8, 18, 32]
 ```
 
-
-
-
 ## :date: Tuesday exercises
-<h3 style="font-size: 20px">1. Simple Pig Latin exercise</h3>
+<h3 style="font-size: 20px">1. Expresiones Regulares o REGEX</h3>
 
-## :date: Wednesday exercise
-<h3 style="font-size: 20px">1. Simple Pig Latin exercise</h3>
+Las expresiones regulares son una forma de describir patrones en datos de tipo string. Estas forman un lenguaje pequeño e independiente que es parte de JavaScript y de muchos otros lenguajes y sistemas. Son una poderosa herramienta para inspeccionar y procesar cadenas. 
 
-## :date: Thursday exercises
-<h3 style="font-size: 20px">1. Simple Pig Latin exercise</h3>
+Una expresión regular es un tipo de objeto. Puede ser construido con el constructor **RegExp** o escrito como un valor literal al envolver un patrón en caracteres de barras diagonales **(/)**.
+
+```javascript
+let re1 = new RegExp("abc");
+let re2 = /abc/;
+```
+
+:link:**Rescurso:** https://eloquentjs-es.thedojo.mx/09_regexp.html
+
+<h3 style="font-size: 20px">1. Replace</h3>
+
+El método replace() busca, reemplaza y devuelve una nueva cadena con las coincidencias de un patrón reemplazadas por algo. :wink: La navaja suiza para buscar y reemplazar. 
+
+Podemos usarlo sin expresiones regulares, para buscar y reemplazar una sub-cadena:
+```javascript 	
+// reemplazar guion por dos puntos
+alert('12-34-56'.replace("-", ":")) // 12:34-56
+``` 
+
+El patrón puede ser una cadena o RegExp, y el reemplazo puede ser una cadena o una función llamada para cada coincidencia. Si el patrón es una cadena, solo se reemplazará la primera aparición. La cadena original se deja sin cambios.
+```javascript 	
+// reemplazar todos los guiones por dos puntos
+alert( '12-34-56'.replace( /-/g, ":" ) )  // 12:34:56
+``` 
+	
+:link:**Recursos:** https://es.javascript.info/regexp-methods
+
+
+## :anger:EXTRA 
+
+- :white_check_mark: Simple Validation Of A Username exercise
+- :white_check_mark: Get Number From String exercise
+- :white_check_mark: String Cleaning exercise
+- :white_check_mark: Password Validation exercise
+
+
