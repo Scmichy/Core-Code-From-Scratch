@@ -110,4 +110,4 @@ alert( '12-34-56'.replace( /-/g, ":" ) )  // 12:34:56
 - :white_check_mark: String Cleaning exercise
 - :white_check_mark: Password Validation exercise
 
-
+- :white_check_mark: Core Challenge 
